@@ -15,7 +15,6 @@ h1 {
     font-size: 20px;
 }
 
-
 button {
     background-color: #025157;
     color: #fff;
@@ -27,3 +26,76 @@ button {
     padding: 0 5% 0;
     
 }
+
+.header {
+    margin: 40px 20px 0;
+    font-size: 0;
+    height: 80px;
+    font-family: sans-serif;
+}
+
+.main {
+    margin: 140px 0 0;
+    text-align: center;
+}
+
+li {
+    display: inline;
+    margin: 0 25px 0;
+}
+ul {
+    margin: 0;
+}
+
+.header > * {
+    display: inline-block;
+    font-size: 16px;
+    height: 100%;
+    vertical-align: middle;
+    line-height: 80px;
+  }
+
+.logo {
+    width: 10%;
+}
+
+.navbar {
+    width: 70%;
+    text-align: left;
+    color: #025157;
+    font-weight: 500;
+}
+
+
+.actions {
+    width: 20%;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+.actions > * {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.actions a {
+    color: #67b54b;
+}
+
+.actions button {
+    color: #ffffff;
+    background-color: #67b54b;
+    padding: 12px 14px 12px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.logo > img {
+    width: 70%;
+}
+
+
+
+
