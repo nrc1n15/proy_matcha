@@ -3,6 +3,24 @@ body {
     font-family: Verdana;
 }
 
+.promotion {
+    display: flex;
+    width: 90%;
+    margin: 100px auto;
+    align-items: center;
+}
+
+.video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video img {
+    width: 120px;
+    margin-top: 20px;
+}
+
 h1 {
     color: #025157;
     text-align: center;
@@ -20,6 +38,42 @@ button {
     color: #fff;
 }
 
+.sales {
+    padding: 25px;
+}
+
+.sales h3 {
+    font-family: "Alegreya", serif;
+    font-size: 40px;
+    color: #025157;
+    line-height: 48px;
+}
+
+.sales > p {
+    font-size: 16px;
+    color: #343434;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.sales > form {
+    display: flex;
+    align-items: center;
+}
+
+.fixed-header {
+    position: fixed;
+    top:0;
+    right: 0;
+    left: 0;
+    background-color: #fffbf7;
+}
+
+.sales > form p {
+    color: #025157;
+    margin-right: 18px;
+}
+
 .intro-image {
     max-width: 70%;
     margin: 15px 10% 10px;
@@ -35,7 +89,7 @@ button {
 }
 
 .main {
-    margin: 140px 0 0;
+    margin-top: 250px;
     text-align: center;
 }
 
@@ -96,6 +150,69 @@ ul {
     width: 70%;
 }
 
+.growth {
+    background-color: #a1d683;
+    height: 40rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
 
+}
 
+.growing {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto 50px;
+}
+
+.case-study {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    background-color: #ffffff;
+    margin: auto 50px;
+}
+
+.case-study h3 {
+    color: #025157;
+    text-align: left;
+    padding: 0 20px;
+}
+
+.case-study p {
+    padding: 0 20px 20px 10px;
+    margin: 0;
+}
+
+.case-study button {
+    margin: 20px;
+    width: 10em;
+    align-self: center;
+}
+
+.growing > p {
+    font-size: 16px;
+    color: #343434;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.growing h3 {
+    font-family: "Alegreya", serif;
+    font-size: 40px;
+    color: #025157;
+    line-height: 48px;
+    margin-bottom: 10px;
+}
+
+.growing button {
+    margin-bottom: 15px;
+    width: 10em;
+}
+
+.growing img {
+    width: 80%;
+    height: auto;
+}
 
